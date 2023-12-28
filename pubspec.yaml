@@ -26,6 +26,18 @@ dev_dependencies: # Зависимости для разработки прое�
  flutter_test: # Зависимость для тестирования Flutter приложений
   sdk: flutter
  flutter_lints: ^2.0.0 # Зависимость для проверки соответствия кода рекомендациям по стилю
+ flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons: 
+ android: "launcher_icon"
+ ios: "AppIcon"
+ image_path: "assets/icons/icon.png"
+ min_sdk_android: 21
+ remove_alpha_ios: true
 
 flutter: # Настройки Flutter
  uses-material-design: true # Использование дизайна в стиле Material Design
+ assets:
+  - assets/
+  - assets/icons/
+  - assets/icons/icon.png
